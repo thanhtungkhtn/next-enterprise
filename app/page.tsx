@@ -1,5 +1,6 @@
-import { Metadata } from "next"
+<parameter name="content">import { Metadata } from "next"
 import { Button } from "components/Button/Button"
+import { PWAInstallPrompt } from "components/PWAInstallPrompt/PWAInstallPrompt"
 
 import { LP_GRID_ITEMS } from "lp-items"
 
@@ -61,6 +62,7 @@ export default function Web() {
           </div>
         </div>
       </section>
+      <PWAInstallPrompt />
     </>
   )
-}
+}</parameter>
